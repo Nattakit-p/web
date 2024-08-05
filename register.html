@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+</head>
+<body>
+    <form>
+        
+        <h1> แบบ Form สมัคร นศ.</h1>
+    <table border="2" width="900px">
+        <tr>
+        <th>Info</th>
+        <th>User Input</th>
+    </tr>
+    <tr> <!--row1-->
+        <td> กรอกรหัส นศ.* </td>
+        <td> <input type="text" id="fname" name="fname" required><br> </td>
+    </tr>
+    <tr><!--row2-->
+        <td> กรอกชื่อ นศ.*</td>
+        <td> <input type="text" id="lname" name="lname" required> </td>
+    </tr>
+    <tr><!--row3-->
+        <td>กรอก Email*</td>
+        <td><input type="email" ></td>
+    </tr>
+    <tr><!--row4-->
+        <td>กรอก รหัสผ่าน</td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>  <!--row5-->
+        <td>กรอก เบอร์โทร *</td>
+        <td><input type="tel" required></td>
+    </tr>
+    <tr>  <!--row6-->
+        <td>กรอก วันเดือนปีเกิด</td>
+        <td><input type="date"></td>
+    </tr>
+    <tr>
+        <td>กรอก สีที่ชอบ</td>
+        <td><input type="color"></td>
+        </tr>
+    <tr>
+        <td>กรอก ส่วนสูง</td>
+        <td><input type="number" min="100" max="300"> CM.</td>
+        </tr>
+    <tr>
+        <td>กรอก น้ำหนัก</td>
+        <td><input type="number" min="40" max="300"> Kg.</td>
+        </tr>
+    
+    
+    <tr>
+        <td>รูปภาพ</td>
+        <td><input type="file">
+        </td>
+        </tr>
+
+    <tr>
+        <td>สาขาวิชา</td>
+        <td><input type="radio"  name="major" value="Inet">INET <br>
+            <input type="radio"  name="major" value="IT">IT <br>
+            <input type="radio"  name="major" value="Ine">INE  <br>
+        </td>
+        </tr>
+    
+    <tr>
+        <td>อาหารที่ชอบ</td>
+        <td><input type="checkbox"  name="food" value="ham"> ham
+            <input type="checkbox"  name="food" value="bref"> bref
+            <input type="checkbox"  name="food" value="grill pork"> grill pork
+        </td>
+        </tr>
+    
+    <tr>
+
+        <td>ที่อยู่ </td>
+        <td>
+            <textarea name="Address" rows="10" cols="30"></textarea>
+        </td>
+    </tr>
+
+    <tr>
+        <td>ชั้นปีที่เรียน</td>
+        <td><select id="year" name="year">
+            <option value="ปี 1">ปี 1</option>
+            <option value="ปี 2">ปี 2</option>
+            <option value="ปี 3">ปี 3</option>
+            <option value="ปี 4">ปี 4</option>
+        </td>
+        </tr>
+
+
+
+
+
+
+
+    <tr>
+        <td>Submit</td>
+        <td><input type="submit"value="Pass">
+             <input type="reset" value="Cancel"></td>
+            
+        </tr>
+            
+
+
+
+    </table>
+    </form>
+</body>
+</html>

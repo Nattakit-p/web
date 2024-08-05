@@ -1,0 +1,30 @@
+h1{
+    color: aqua;
+}
+
+h2{
+    color: aquamarine;
+}
+
+h3{
+    color: blueviolet;
+}
+
+.red {
+    text-align: center;
+    color: red;
+    }
+
+    .blue {
+    text-align: center;
+    color: blue;
+    }
+
+
+    #para1 {
+    text-align: left;
+    }
+
+    #para2 {
+    text-align: Right;
+    }
